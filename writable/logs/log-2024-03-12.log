@@ -1,0 +1,799 @@
+CRITICAL - 2024-03-12 13:33:50 --> ParseError: Unclosed '{' on line 666
+in APPPATH\Views\yachtProject\index.php on line 1496.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 3 APPPATH\Controllers\Index.php(13): view('yachtProject/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Index->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 13:38:40 --> ErrorException: Undefined variable $yachtData
+in APPPATH\Views\yachtProject\index.php on line 671.
+ 1 APPPATH\Views\yachtProject\index.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtData', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 671)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 13:39:27 --> ParseError: syntax error, unexpected double-quoted string " class=", expecting "," or ";"
+in APPPATH\Views\yachtProject\index.php on line 671.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 3 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 13:59:39 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 13:59:41 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 13:59:41 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:00:26 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 674.
+ 1 APPPATH\Views\yachtProject\index.php(674): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 674)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:00:36 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:00:37 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:00:37 --> ErrorException: Undefined variable $user
+in APPPATH\Views\yachtProject\index.php on line 676.
+ 1 APPPATH\Views\yachtProject\index.php(676): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 676)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:16:51 --> ParseError: Unclosed '{' on line 662
+in APPPATH\Views\yachtProject\index.php on line 1499.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 3 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:41:37 --> ErrorException: Undefined variable $abc
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 175.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abc', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 175)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:43:33 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:44:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:50:08 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 178.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:50:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 178.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:50:09 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 178.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:52:59 --> ErrorException: Undefined variable $yacht
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 172.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yacht', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 172)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:53:00 --> ErrorException: Undefined variable $yacht
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 172.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yacht', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 172)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:53:00 --> ErrorException: Undefined variable $yacht
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 172.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yacht', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 172)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:53:11 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:53:49 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 14:55:14 --> ErrorException: Undefined variable $abc
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 175.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abc', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 175)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('71')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 15:11:05 --> ParseError: Unmatched '}'
+in APPPATH\Views\yachtProject\index.php on line 784.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 3 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 15:22:10 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('70')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 15:27:13 --> ErrorException: Undefined variable $abcd
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 177.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abcd', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 177)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(20): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('70')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 15:53:50 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\index.php on line 671.
+ 1 APPPATH\Views\yachtProject\index.php(671): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php', 671)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(13): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:23:53 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:23:53 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:23:54 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:23:58 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:23:58 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:49:50 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 16:49:50 --> Error: Undefined constant "d"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 530.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH\Controllers\Yacht.php(25): view('yachtProject/us/yacht-list')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 21:22:22 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 300.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 300)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 21:26:05 --> ErrorException: Undefined variable $abcdef
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 305.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(305): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abcdef', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 305)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 21:49:39 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 369.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:03:19 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 293.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 293)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:15:08 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:16:51 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:16:53 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:16:53 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:17:11 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:18:55 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:19:28 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:20:25 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:20:26 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:20:26 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:53 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:54 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:54 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:54 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:55 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:21:55 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(27): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:17 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:49 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:50 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:51 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:51 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:51 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:54 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:55 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:35:55 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:36:33 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:36:34 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:36:34 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:36:34 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:36:34 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Controllers\Yacht.php on line 27.
+ 1 APPPATH\Controllers\Yacht.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Yacht.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:37:13 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(28): view('yachtProject/us/yacht-list')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:37:15 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(28): view('yachtProject/us/yacht-list')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:37:15 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(28): view('yachtProject/us/yacht-list')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:58 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:38:59 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:39:00 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-12 23:39:00 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 294.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 294)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(54): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtListFilter()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

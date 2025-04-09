@@ -1,0 +1,538 @@
+CRITICAL - 2025-01-16 14:46:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 16:43:03 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\NewYachtCRM.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bmy\\app\\Controllers\\NewYachtCRM.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\NewYachtCRM')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\NewYachtCRM')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\NewYachtCRM', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 17:37:56 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 186.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(68): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('802')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 17:38:27 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 186.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(68): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('802')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 17:38:28 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 186.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(68): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('802')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 17:47:21 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 186.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 186)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(68): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('802')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 18:53:55 --> ErrorException: Undefined variable $yachtModel
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 128.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtModel', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 128)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(79): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('802')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 19:11:28 --> YachtBookingModel with id 802 not found.
+CRITICAL - 2025-01-16 19:29:05 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:29:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:29:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('56')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:48:00 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('50')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:48:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('56')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:48:57 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:52:50 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 135.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 135)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('58')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:54:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 151.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 151)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:54:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 177.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 177)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:54:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 189.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 189)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:57:19 --> ErrorException: Undefined variable $yachtModel
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 108.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtModel', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:57:31 --> ErrorException: Undefined variable $yachtModel
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 128.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtModel', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 128)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:57:38 --> ErrorException: Undefined variable $yachtModel
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 128.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtModel', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 128)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 19:58:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 124.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 124)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:00:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('57')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:03:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('59')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:07:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('59')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:08:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('59')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:26:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('60')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:31:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('61')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 20:33:25 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('61')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 20:34:03 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 20:41:09 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 20:47:56 --> YachtBookingModel with id 0 not found.
+CRITICAL - 2025-01-16 20:47:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 20:49:59 --> YachtBookingModel with id 0 not found.
+CRITICAL - 2025-01-16 20:49:59 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 125.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 125)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(110): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('0')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:18:01 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:18:31 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:19:28 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:19:31 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:19:31 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:21:36 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:21:37 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 21:21:37 --> ErrorException: Undefined variable $selectedYachtId
+in APPPATH\Views\NewYachtCRM\calendar.php on line 613.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selectedYachtId', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 613)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(65): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 21:28:58 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 21:48:55 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 22:00:40 --> YachtBookingModel with id 826 not found.
+CRITICAL - 2025-01-16 22:00:40 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 239.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 239)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(85): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('826')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 22:01:30 --> YachtBookingModel with id 826 not found.
+CRITICAL - 2025-01-16 22:01:30 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 239.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 239)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(85): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('826')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 22:01:30 --> YachtBookingModel with id 826 not found.
+CRITICAL - 2025-01-16 22:01:30 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 239.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 239)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(85): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('826')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 22:01:30 --> YachtBookingModel with id 826 not found.
+CRITICAL - 2025-01-16 22:01:30 --> ErrorException: foreach() argument must be of type array|object, null given
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 239.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(239): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 239)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(85): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('826')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-16 22:01:53 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 22:02:44 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 22:03:59 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 22:06:30 --> YachtBookingModel with id 826 not found.
+ERROR - 2025-01-16 22:06:56 --> YachtBookingModel with id 826 not found.
+CRITICAL - 2025-01-16 22:07:41 --> ErrorException: Undefined variable $abc
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abc', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('826')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 22:42:32 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 242.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('825')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 22:43:27 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 242.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('825')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 22:43:27 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 242.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('825')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 22:46:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 240.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('825')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-16 23:03:18 --> ErrorException: Undefined array key "thumbnail"
+in APPPATH\Views\NewYachtCRM\yacht-booking-details.php on line 264.
+ 1 APPPATH\Views\NewYachtCRM\yacht-booking-details.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumbnail"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php', 264)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\yacht-booking-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/yacht-booking-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(80): view('NewYachtCRM/yacht-booking-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->YachtBookingDetails('825')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

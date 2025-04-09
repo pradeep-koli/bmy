@@ -1,0 +1,162 @@
+CRITICAL - 2024-07-27 00:24:51 --> ErrorException: Undefined variable $price
+in APPPATH/Views/yachtProject/us/booking-page.php on line 142.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(369): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBookingTest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 05:36:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/yacht-booking.php on line 80.
+ 1 APPPATH/Views/yachtProject/us/yacht-booking.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-booking.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(351): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 08:03:24 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/yacht-booking.php on line 80.
+ 1 APPPATH/Views/yachtProject/us/yacht-booking.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-booking.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(351): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 13:45:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:07:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:09:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:06 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:27:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:28:08 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:28:13 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:31:26 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:31:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:40:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 15:57:43 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 16:33:31 --> ParseError: syntax error, unexpected token ">"
+in APPPATH/Views/NewYachtCRM/about-subscribe.php on line 93.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/NewYachtCRM.php(272): view()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->aboutSubscribe()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 20:44:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 23:15:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

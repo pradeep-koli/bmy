@@ -1,0 +1,390 @@
+CRITICAL - 2024-04-08 15:49:42 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 218.
+ 1 APPPATH\Controllers\Home.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Home.php', 218)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 16:31:30 --> ErrorException: Undefined array key "yacht_name"
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 33.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "yacht_name"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(26): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:00:11 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('filter/process', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:00:53 --> Error: Class "App\Models\YourModel" not found
+in APPPATH\Controllers\Yacht.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:01:46 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:04:36 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:13:26 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:15:31 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:17:28 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:20:05 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:22:33 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(80): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:34:09 --> Error: Class "Route" not found
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:34:30 --> ErrorException: Undefined variable $route
+in APPPATH\Config\Routes.php on line 37.
+ 1 APPPATH\Config\Routes.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\ciproject\\app\\Config\\Routes.php', 37)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\ciproject\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 19:37:11 --> ArgumentCountError: Too few arguments to function CodeIgniter\Database\BaseConnection::query(), 0 passed in C:\xampp\htdocs\ciproject\system\Model.php on line 868 and at least 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 570.
+ 1 SYSTEMPATH\Model.php(868): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Controllers\Yacht.php(77): CodeIgniter\Model->__call('query', [])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->abc()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:21:58 --> ArgumentCountError: Too few arguments to function App\Controllers\Yacht::filter(), 0 passed in C:\xampp\htdocs\ciproject\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Yacht.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:48:41 --> ErrorException: Undefined property: App\Controllers\Yacht::$db
+in APPPATH\Controllers\Yacht.php on line 75.
+ 1 APPPATH\Controllers\Yacht.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Yacht::$db', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:49:46 --> ErrorException: Undefined property: App\Controllers\Yacht::$db
+in APPPATH\Controllers\Yacht.php on line 77.
+ 1 APPPATH\Controllers\Yacht.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Yacht::$db', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:49:46 --> ErrorException: Undefined property: App\Controllers\Yacht::$db
+in APPPATH\Controllers\Yacht.php on line 77.
+ 1 APPPATH\Controllers\Yacht.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Yacht::$db', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-08 20:50:08 --> mysqli_sql_exception: Unknown column 'type' in 'where clause' in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\app\Controllers\Yacht.php(87): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\Yacht->process()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-08 20:50:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `type` = :type:
+AND `length` = :length:', [...], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Yacht.php(87): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:50:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `type` = \'Motor Yachts\'
+AND `length` = \'\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `type` = \'Motor Yachts\'
+AND `length` = \'\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `type` = :type:
+AND `length` = :length:', [...], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Yacht.php(87): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:50:08 --> [Caused by] mysqli_sql_exception: Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+WHERE `type` = \'Motor Yachts\'
+AND `length` = \'\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `type` = \'Motor Yachts\'
+AND `length` = \'\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `type` = \'Motor Yachts\'
+AND `length` = \'\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `type` = :type:
+AND `length` = :length:', [...], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Yacht.php(87): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:50:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yacht_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yacht_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht_view', [], true)
+ 3 APPPATH\Controllers\Yacht.php(88): view('yacht_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:51:19 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 83.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 83)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(88): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:52:47 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:53:03 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:55:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 154.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 154)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:56:13 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 232.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:57:44 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 232.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 232)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 20:58:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 21:00:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 21:04:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 21:04:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 21:04:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 21:05:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:25:57 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ciproject\app\Controllers\Yacht.php on line 81
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\Yacht.php(81): CodeIgniter\BaseModel->findAll('yacht_type', 'Luxury Yachts')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:26:16 --> Error: Call to a member function where() on null
+in APPPATH\Controllers\Yacht.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:28:46 --> ErrorException: Undefined variable $products
+in APPPATH\Controllers\Yacht.php on line 88.
+ 1 APPPATH\Controllers\Yacht.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:29:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-08 22:29:22 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 85.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 85)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(90): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

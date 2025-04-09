@@ -1,0 +1,115 @@
+CRITICAL - 2024-06-24 15:42:28 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:45:13 --> ErrorException: Undefined variable $img1
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img1', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:45:41 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:45:41 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:46:47 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:46:49 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:54:03 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 15:54:05 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Yacht.php on line 99.
+ 1 APPPATH\Controllers\Yacht.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:05:03 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(79): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:09:10 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(79): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:09:19 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(79): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:09:19 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(79): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 18:10:47 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 220.
+ 1 APPPATH\Views\yacht-detail.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 220)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(79): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('12')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

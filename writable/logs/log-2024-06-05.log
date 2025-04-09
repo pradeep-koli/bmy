@@ -1,0 +1,36 @@
+CRITICAL - 2024-06-05 21:12:50 --> ParseError: syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/NewYachtCRM/calendar.php on line 427.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH/Controllers/NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 21:12:51 --> ParseError: syntax error, unexpected 'endif' (T_ENDIF)
+in APPPATH/Views/NewYachtCRM/calendar.php on line 427.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH/Controllers/NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:21:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/yacht-detail.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/yacht-detail.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('yachtProject/yacht-detail', [], true)
+ 3 APPPATH/Controllers/Yacht.php(68): view('yachtProject/yacht-detail', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('2')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 23:21:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/yacht-detail.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/yacht-detail.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('yachtProject/yacht-detail', [], true)
+ 3 APPPATH/Controllers/Yacht.php(68): view('yachtProject/yacht-detail', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('2')
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

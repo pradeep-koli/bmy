@@ -1,0 +1,678 @@
+CRITICAL - 2024-02-23 14:48:11 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 285.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:50:12 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 285.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:50:19 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 285.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:50:25 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 285.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:52:33 --> ParseError: syntax error, unexpected token "{", expecting "("
+in APPPATH\Controllers\Home.php on line 290.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:53:29 --> Error: Call to a member function getClientName() on null
+in APPPATH\Controllers\Home.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:54:13 --> Error: Call to a member function getClientName() on null
+in APPPATH\Controllers\Home.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:55:32 --> ErrorException: Undefined variable $abc
+in APPPATH\Controllers\Home.php on line 290.
+ 1 APPPATH\Controllers\Home.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abc', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 14:56:20 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Home.php on line 290.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:02:33 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('6')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:11:30 --> ErrorException: Undefined variable $user
+in APPPATH\Views\edit.php on line 148.
+ 1 APPPATH\Views\edit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:11:32 --> ErrorException: Undefined variable $user
+in APPPATH\Views\edit.php on line 148.
+ 1 APPPATH\Views\edit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:11:33 --> ErrorException: Undefined variable $user
+in APPPATH\Views\edit.php on line 148.
+ 1 APPPATH\Views\edit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:11:39 --> ErrorException: Undefined variable $user
+in APPPATH\Views\edit.php on line 148.
+ 1 APPPATH\Views\edit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:13:03 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('6')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:29:08 --> ErrorException: Undefined variable $file
+in APPPATH\Controllers\Home.php on line 309.
+ 1 APPPATH\Controllers\Home.php(309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 309)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('6')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:37:12 --> ParseError: syntax error, unexpected variable "$yourModel"
+in APPPATH\Controllers\Home.php on line 326.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:37:14 --> ParseError: syntax error, unexpected variable "$yourModel"
+in APPPATH\Controllers\Home.php on line 326.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:41:45 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('Home/update2', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:42:03 --> ParseError: syntax error, unexpected token "return"
+in APPPATH\Controllers\Home.php on line 311.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 15:42:04 --> ParseError: syntax error, unexpected token "return"
+in APPPATH\Controllers\Home.php on line 311.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:01:14 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 302.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-23 16:01:49 --> mysqli_sql_exception: Column 'thumb-img' cannot be null in C:\xampp\htdocs\mainproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\mainproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\mainproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\mainproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\mainproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\mainproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\mainproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\mainproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\mainproject\system\BaseModel.php(713): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\mainproject\app\Controllers\Home.php(308): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\mainproject\system\CodeIgniter.php(941): App\Controllers\Home->update('2')
+#10 C:\xampp\htdocs\mainproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\mainproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\mainproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-02-23 16:01:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`thumb-img`) VALUES (:thumb-img:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Home.php(308): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:01:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`thumb-img`) VALUES (NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`thumb-img`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`thumb-img`) VALUES (:thumb-img:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Home.php(308): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:01:49 --> [Caused by] mysqli_sql_exception: Column 'thumb-img' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht` (`thumb-img`) VALUES (NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`thumb-img`) VALUES (NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`thumb-img`) VALUES (NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`thumb-img`) VALUES (:thumb-img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(308): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:17:14 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:18:35 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:19:56 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:31:32 --> ErrorException: Undefined variable $file
+in APPPATH\Controllers\Home.php on line 282.
+ 1 APPPATH\Controllers\Home.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 282)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:32:09 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:33:56 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Home.php on line 300.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:34:40 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:36:06 --> Error: Call to a member function getClientName() on null
+in APPPATH\Controllers\Home.php on line 283.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:37:54 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 283.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:38:17 --> Error: Call to a member function hasMoved() on null
+in APPPATH\Controllers\Home.php on line 283.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:38:20 --> Error: Call to a member function hasMoved() on null
+in APPPATH\Controllers\Home.php on line 283.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:38:58 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 303.
+ 1 APPPATH\Controllers\Home.php(303): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 303)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:40:37 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 307.
+ 1 APPPATH\Controllers\Home.php(307): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 307)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:40:44 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 307.
+ 1 APPPATH\Controllers\Home.php(307): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 307)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:41:13 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 309.
+ 1 APPPATH\Controllers\Home.php(309): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 309)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:46:21 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Home.php on line 287.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('11')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:50:15 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:54:21 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('12')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 16:59:03 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:04:21 --> ErrorException: Undefined variable $newName
+in APPPATH\Controllers\Home.php on line 244.
+ 1 APPPATH\Controllers\Home.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $newName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->do_order()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:11:30 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 17:26:32 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:23:18 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 286.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:23:31 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 286.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:24:03 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 287.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:24:05 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 287.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:24:05 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 287.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:24:43 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 283.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:31:53 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:36:36 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:36:49 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 18:38:57 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Home.php on line 284.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:18:39 --> ErrorException: Undefined variable $user
+in APPPATH\Views\edit.php on line 148.
+ 1 APPPATH\Views\edit.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php', 148)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:21:20 --> ParseError: syntax error, unexpected token "echo"
+in APPPATH\Views\edit.php on line 148.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('edit', [], true)
+ 3 APPPATH\Controllers\Home.php(275): view('edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:43:17 --> ErrorException: Undefined variable $imageName
+in APPPATH\Controllers\Home.php on line 290.
+ 1 APPPATH\Controllers\Home.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:45:50 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::update(), 1 passed in C:\xampp\htdocs\mainproject\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 278.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:47:46 --> ErrorException: Undefined variable $imageName
+in APPPATH\Controllers\Home.php on line 290.
+ 1 APPPATH\Controllers\Home.php(290): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 290)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:48:14 --> ErrorException: unlink(uploads/thumbnail/): Is a directory
+in APPPATH\Controllers\Home.php on line 294.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/thumbnail/): Is a directory', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 294)
+ 2 APPPATH\Controllers\Home.php(294): unlink('uploads/thumbnail/')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:48:52 --> ErrorException: unlink(uploads/thumbnail/): Is a directory
+in APPPATH\Controllers\Home.php on line 294.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(uploads/thumbnail/): Is a directory', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 294)
+ 2 APPPATH\Controllers\Home.php(294): unlink('uploads/thumbnail/')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 19:51:12 --> ErrorException: Undefined variable $imageName
+in APPPATH\Controllers\Home.php on line 291.
+ 1 APPPATH\Controllers\Home.php(291): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 291)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:00:36 --> ErrorException: Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 270.
+ 1 APPPATH\Controllers\Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->extraAddImages()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:02:17 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Home.php on line 270.
+ 1 APPPATH\Controllers\Home.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->extraAddImages()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:11:42 --> ParseError: syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Home.php on line 361.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\mainproject\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:12:27 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:12:28 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:12:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:12:31 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:12:32 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:30 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:30 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:30 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:34 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:35 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:39 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:39 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:42 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:13:43 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:28 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:28 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:28 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:29 --> ErrorException: Cannot redeclare App\Controllers\Home::extraAddImages()
+in APPPATH\Controllers\Home.php on line 328.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:14:51 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 107.
+ 1 APPPATH\Views\ecommerce-orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:21:17 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 107.
+ 1 APPPATH\Views\ecommerce-orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:21:17 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 107.
+ 1 APPPATH\Views\ecommerce-orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:21:18 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 107.
+ 1 APPPATH\Views\ecommerce-orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:27:22 --> ErrorException: Cannot redeclare App\Controllers\Home::edit()
+in APPPATH\Controllers\Home.php on line 277.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-23 23:27:50 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 107.
+ 1 APPPATH\Views\ecommerce-orders.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:28:22 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 106.
+ 1 APPPATH\Views\ecommerce-orders.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 23:28:23 --> ErrorException: Undefined variable $record
+in APPPATH\Views\ecommerce-orders.php on line 106.
+ 1 APPPATH\Views\ecommerce-orders.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\mainproject\\app\\Views\\ecommerce-orders.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ecommerce-orders', [], true)
+ 5 APPPATH\Controllers\Home.php(259): view('ecommerce-orders', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->showOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,493 @@
+How to create events in JavaScript FullCalendar with source code
+
+New changes website(bookmyyacht.us) date: 29-04-2024
+- us/details : is par price per hour aisa tha($150/hour) [done].
+- services page(offerce) : to add slider (animation) [done].
+- header : logo alignment set properly all pagess [done].
+- email : only one dot(.) include (form validation). [done].
+- https://bookmyyacht.us/us/yacht-booked : (if user fill up form that time show a error)(server error)
+- to create new booking yacht page
+- set footer alignmnet properly
+- us/details : yacht images not displya but local server show images
+
+
+Pending Work:
+-Add User login 
+	User Detail
+	Active booking bookings 
+	Booking History
+
+- Pagination [done]
+- Payment getway
+- Add posting (with CRM)
+- shour button
+- SEO
+- Google translter
+
+* Yacht Website Changes=> date: 22/03/2024 & Day: Tue
+1.footer-> set properly alignment [almost done]
+2.ciproject/us/yacht-detail-> id- 1[done], 4[done], 5[done], 6[done] add images
+3.footer icon set propery [done].
+4.create new yacht booking page [done]
+5.create new yacht booking confirm ticket page [done]
+
+
+*-------------------*
+Updated files name (13-06-2024)
+
+- yacht-record (view) : [Price ($),Guest (Max Capacity),Max Speed (Knots), Length (ft), Thambnail Image (only jpg & jpeg), 'about' filed added]
+- yacht-record-edit (view) : above file same content addded this section 
+- Home (Controller) : yachtRecordInsert(), yachtRecordUpdate(), updateStatus()
+- sidebar (view) : name formate update
+- user-records (view) : name formate update
+- admin-tour-booking (view) ,(NewYachtCRM): title name change
+- calendar (view) ,(NewYachtCRM) : name formate update
+- contact-form (view) ,(NewYachtCRM) : name formate update
+- contact-subscribe (view) ,(NewYachtCRM): title name change
+- create user (view) ,(NewYachtCRM): title name change
+- enquiry-form (view) ,(NewYachtCRM) : name formate update
+- sidebar (view) ,(NewYachtCRM) : name formate update
+- user-details (view) ,(NewYachtCRM) : name formate update
+- about (view) ,(YachtProject): name formate update
+- booking-confirm (view) ,(YachtProject): title name change
+- yacht-booking (view) ,(YachtProject): name formate update
+- booking-page (view) ,(YachtProject): name formate update
+- yacht-details (view) ,(YachtProject): name formate update
+
+*********************** BMY Changes *********************	date: 14-06-2024 
+
+- yacht-record (view) : [Price ($),Guest (Max Capacity),Max Speed (Knots), Length (ft), Thambnail Image (only jpg & jpeg), 'about' filed added]
+- yacht-record-edit (view) : above file same content addded this section 
+- YachtModel (Model)/(db) : 'status' and 'about' field added
+- Home (Controller) : yachtRecordInsert(), yachtRecordUpdate(), updateStatus()
+- yacht-details (view) ,(YachtProject) : [Price ($),Guest (Max Capacity),Max Speed (Knots), Length (ft) to set limit Gallary
+
+*********************** BMY Changes *********************	date: 19-06-2024
+- HolidaysModel : 'username' field added.
+- holiday (view) ,(NewYachtCRM): in form/table added 'username'.
+- calendar (view) ,(NewYachtCRM): in <script> added 'username' vise data show'.
+- NewYachtCRM (Controller) : calendar(), addHoliday().
+
+*********************** BMY Changes *********************	date: 30-06-2024
+(Pending Work)
+1. http://localhost/bmy/yacht-detail
+	- icon change -> Yacht Detail table [done].
+	- Yacht Options <-> Yacht Policies -> interChagne in between [done].
+
+2. -yacht-detail Confirm [done].
+
+
+-User Login
+	User Bookings[done]
+-Google Login 
+
+-Facebook Login
+
+3. -Contact form to Email  & DB [done].
+URL: https://hostinger.titan.email/login/
+URL: https://hostinger.titan.email/mail/
+Mail: web@bookmyyacht.us
+Pass: T_;$VrPN/;uJ#\M
+
+adminPannel ciyacht :
+user : admin-yacht-booking only this show and remove the action field [done].
+
+(bmy)footer : offer -> Partner Login [05-07-2027 done].
+
+**************************
+
+
+*********************** BMY Changes ********************* 	date: 06-07-2024
+-	 suppose new yacht add without approve show this yacht yacht list page [done]-	
+-	 admin pannel (raj) : enquiry form delete button not working [done]
+	[routes file not add deleteEnquiry()]. [done].
+-	yacht details page : change the button color according to contact page [done].
+-	yacht details page : Amenities-> Safety & Security add more option common in every yacht[done]
+- 	yacht details : gallary proper set according images [done].
+
+- 	create login and register separete for user and manager role.[done]
+-	CRM -> remvoe the footer Design & Develop this line.[done]
+-	hidden tag mai controy field (USA) add kare.[done]
+
+-	builname,engine,builder,year of build (remove this field yacht-record.php) [done].
+
+-	index(bmy) : footer->(Partner Login) add this field[done]
+	explaination- Partner Login filed sirf Manager ke liye hai, create new manager-register form like-user-register.php[done]
+	Manager jaise hi Partner Login click kare to login(admin) page pe redirect kare and Login page mai Register filed kare jis 
+	click kare manager-register.php pe redirect kare.
+-	builname,engine,builder,year of build (remove this field yacht-record.php) [done].
+-	yacht-detail theme set hotel-detail (image gallary)[done]
+
+-	(.avif) image download -> convert the (.JPG)
+
+-	yacht details page : to add <hr> horizontal line after header section
+
+
+-	yacht details page : Amenities-> Facilities and Services change the according to yacht (pending)
+-	Mysql (bmy): 'yacht' table -> add two filed Facilities and Services (pending)
+
+- 	SEO
+- 	Google translter
+-	Google Login (pending)
+-	Facebook Login (pending)
+
+
+*********************** BMY Changes ********************* 	date: 07-10-2024
+- 	Add Yacht -> Yacht Records[done]
+
+-	yacht detail: image1 not display first images gallary section[done]
+
+-	user role: 'manager' la username hide karne table madhun[done]
+
+-	Holidays -> Yacht NA (all sidebar mai holidays->yacht NA name replace karne)[done]
+-	Holidays -> column mai time field karna hai [done]
+
+-	holidays.php -> YachtNA.php replace [done]
+-	HolidaysModel -> remane according to Yacht NA [done]
+-	tbl_holidays -> database : remane according to Yacht NA [done]
+
+-	Login Error MSG	[done].
+	explination: user login karte time email or password wrong daale to usko message show kare('user not exits', 'email or password not match') [done].
+
+-	(BMY) Google Profile Create : normal google profile created without address. (pending) 
+
+-	Dashboard Notification(pending)
+
+-	Password recovery and reset options
+-	Email Status tracking (pending, approved, rejected)
+-	Document upload (ID proof, ownership documents, etc.)
+-	Email Integration For External Communications
+
+-	Email -> Notification (forgate password)(pending)
+	explination: user jab forgate password, yacht book kare to natification jana chahiye.
+
+Email Notification: (pending)
+
+New Account
+Password Recovery
+New yacht added
+Yacht Approved
+Booking Approved
+
+- user view : Pricing change to according to hours
+	- time duration -> 6 to 8 pm (total 10 hr) [done].
+	- automatic price calculation
+
+- manager view : - booking & payment anylities
+	- start and end yacht time with day [done]
+
+
+- CRM(manager) -> Payment (sidebar section added) [done]
+
+- CRM (Manager) Payment form(sidebar) (CRUD Operation Appying)[done]
+Bank name: 
+Bank address: 
+Routing (ABA): 
+SWIFT code: 
+IBAN:
+Account number: 
+Account type: 
+Beneficiary name:
+
+****************** 10-01-2025 changes ******************
+Book MY Yacht
+
+URL: https://bookmyyacht.us/admin
+Mail: mailto:laurent@ycn.miami
+Pass: nEn6Jmfv65P4
+
+68 FT Galeon yacht ka name to is yacht ki kuch basic information provide kare jaise ki
+-us yacht ka model number
+-us yacht ka type name
+-us yacht ka engine type
+-us yacht ki maximum speed
+-us yacht ka owner/ceo ka naam
+-us yacht ka manufacturing year
+-us yacht mai kitane cabin hai aur kitane guest allowe hai uske number
+-us yacht ki 25 words ke two paragraph 
+
+3,200 pe 15% add karne ke baad value kya jayegi?
+4,300 pe 15% add karne ke baad value kya jayegi?
+5,000 pe 15% add karne ke baad value kya jayegi?
+------------------------------------------------------------
+admin- facilities/services jo show ho raha hai checkbox se show ho raha hai so checkbox ki jagah 'textarea' le.
+admin- price packegs edit karne aane chahiye.(solve)
+website - jo textarea mai facilities/services hai oh as it formate mai show ho jaise default mai show ho raha hai. (solve)
+website - location or address proper show hona chahiye user jab us perticuler yacht ki profile pe jaye tab. (done)
+website- booking page pe Hour show nhi ho raha hai, oh select option mai show nhi ho rahe hai.(done)
+website - https://bookmyyacht.us/yacht-detail803(solve)
+website - https://bookmyyacht.us/yacht-detail804(solve)
+id-805 yacht delete kare.(done)
+database- to add address filed in 'yacht' table(done)
+Default Facilities/Services table/model file code remove.(done)
+website- Facilities heading mai textarea filed show hone chahiye (remove separate/facilites) (done)
+tryit - jo facilites show ho raha hai use 'yacht' table mai print kare dusare table/model create na kare.
+----------------------------------------------------
+to add some extra changes bmy
+.yacht details page
+
+.Yacht Facilities:
+Entertainment System, Safety & Security Features, Modern Kitchen, Cleaning Services
+(facilities mai jo comma karke values show ho rahe hai us jagah(/) ka use karke facilities enter kare.)(done)
+
+.website- bookingpage - please enter number mai 10 digit rake.(done)
+.yacht-details : similar yacht not avaible remove this section.(done)
+.yacht-details : kuch yacht ke facilities show nhi ho rahe hai.(done)
+.yacht-details : kuch yacht ke address show nhi ho rahe hai.(done)
+.yacht-details : http://localhost/bmy/yacht-detail803 image not show properly.(done)
+.yacht-details : main highlight remove from website.(done)
+.gotobooking : important note mai 👨🏻‍✈️ Captain (gratuity paid directly) add kare according yacht.(done)
+
+
+laurent user yacht(22):
+Azimut 68done, 62,64done,75done,88done,116done
+Princess Jacuzzi 88done,100done
+Sanlorenzo 97done
+Leopard Jacuzzi 94done
+Sunseeker 70done,78done,90done
+Prestige 52done,75done
+Aicon 75done
+Galeon 68done, 68done, 53done
+Beneteau 62done
+Sailing Catamaran 48done
+Austin Parker 45done
+
+-------------------------------------------------------------------------------------------
+.goto-booking- Maximum Speed value ke sath knots add kare (done)
+.tour booking - booking details(reaplace) name se replace kare.(done)
+.booking details - ek view button add kare jispe click karne par us user ki yacht booking sari information show ho.
+.calendar - user jo bhi yacht select kare uski id show honi chahiye.(IMP)(done)
+------------------------------------------------------------------------------------------
+self changes:
+.database - yacht_booking table mai yacht name 'hname' field add ki hai.
+.calendar - user jab yacht name select kare tab usne jo yacht name select kiya hai uski sath uski ID or Yacht Type or Price show ho.
+.yacht-record - user jab record delete kare to thuambnail or mainContent mai jo images hai oh bhi delete hojaye.
+
+[
+CRM: user jab yacht book kare tab yacht_type filed mai hname aa raha hai.
+price filed empty show ho rahi hai,
+calendar mai event mai error show ho rahe hai vscode.
+user jab crm ke throuth booking kare tab number ke sath hour word bhi likha huva aa raha hai eg-1hour.
+]
+
+GitHub Account
+EmailID : pradeepkoli.dev@gmail.com
+Password : pradeepkoli.dev45
+Username : pradeep-koli
+---------------------------------------------------------------------------------------------------------------
+BMY new changes 22-03-2025:
+- error : column plan_describption cannot be null (solve)
+- jo yacht website nhi hai unka status Pending ki jagah Decline kar de. (done)
+
+NOTE:Optional items
+Add-ons Yacht add na kare
+
+Add New Yachts
+- https://ycn.miami/brokers : is yacht pe jo bhi new yacht show ho rahe oh add kare. (pending/ currentluy working)
+
+
+Prestige 75ft Yacht ka Name to is yacht ki kuch basic information provide kare jaise ki
+-us yacht ka model number
+-us yacht ka type name
+-us yacht ka engine type
+-us yacht ki maximum speed
+-us yacht ka owner/ceo ka naam
+-us yacht ki size like small/medium/large/extra large
+-us yacht mai kitane cabin hai aur kitane guest allowe hai uske number
+-us yacht ki 35 words ke two paragraph 
+
+35,000 pe 15% add karne ke baad value kya jayegi?
+70,000 pe 15% add karne ke baad value kya jayegi?
+
+--------------------------------------------------------------------------------------------
+- https://bookmyyacht.us/us/gallery : current yachrt ke images view kare. gallary mai human ke image image dale (done)
+- https://bookmyyacht.us/ Yacht's  Spotlight : currect yacht image ke according image or information fill kare (done)
+- https://bookmyyacht.us/ Our Favorite Yachts : old yacht show ho rahi hai (done)
+- https://bookmyyacht.us/ foote mai sirf yacht ke images show hone chahiye (done)
+---------------------------------------------------------------------------------------------------------------
+https://ycn.miami/brokers
+
+Laurent Yacht Details :
+MIAMI YACHTS - CENTRAL :
+1.Yacht Name : Axopar 38ft
+Address : 833 86th St, Miami Beach, FL 33141
+Year : 2023
+Location : Miami
+
+2.Yacht Name : Axopar 38ft
+Address : Bill Bird Marina
+Year : 2025
+Location : Miami
+
+3.Yacht Name : Sailing Catamaran 48ft (missing)
+Address : Bayshore landing
+Year : 1990
+Location : Coconut Grove
+
+4.Yacht Name : Prestige 52ft
+Address : Bill Bird Marina
+Year : 2017
+Location : N.Miami
+
+5.Yacht Name : Beneteau 62ft(Missing)
+Address : Bill Bird Marina
+Year : 2016
+Location : N.Miami
+
+6.Yacht Name : Azimut 72ft
+Address : North Bay Village
+Year : 2019
+Location : Miami
+
+7.Yacht Name : Sunseeker Predator 74ft
+Address : 1110 NW North River Drive, Miami FL 33136
+Year : 2023
+Location : Miami
+
+8.Yacht Name : Sunseeker 78ft
+Address : Miami Beach Marina
+Year : 2019
+Location : Miami
+
+9.Yacht Name : Mangusta 84ft
+Address : Bill Bird Marina (Haulover)
+Year : 1999
+Location : N.Miami
+
+10.Yacht Name : Leopard Jacuzzi 94ft (missing)
+Address : Venitian Marina Pier 1
+Year : 2008
+Location : Miami
+
+11.Yacht Name : Sirena 96ft
+Address : Aventura
+Year : 2024
+Location : Aventura
+
+MIAMI YACHTS - PARTNER:
+12.Yacht Name : Azimut 62ft
+Address : Harbor West Marina
+Year : 2008
+Location : Miami
+
+13.Yacht Name : Azimut 64ft
+Address : Cox's Landing
+Year : 2013
+Location : Ft.Lauderdale
+
+14.Yacht Name : Azimut 68ft
+Address : Bill Bird Marina
+Year : 2016
+Location : N.Miami
+
+15.Yacht Name : Galeon 68ft
+Address : Marina Palms
+Year : 2021
+Location : Aventura
+
+16.Yacht Name : Galeon 68ft
+Address : Miami Beach Marina
+Year : 2025
+Location : Miami
+
+17.Yacht Name : Azimut 75ft
+Address : Bayside Marina
+Year : 2016
+Location : Miami
+
+18.Yacht Name : Aicon 75ft (missing)
+Address : Miami Beach Marina
+Year : 2008
+Location : Miami
+
+19.Yacht Name : Prestige 75ft
+Address : Cox Landing
+Year : 2015
+Location : Ft.Lauderdale
+
+20.Yacht Name : Wally 85ft
+Address : Bayside Marina
+Year : 2024
+Location : Miami
+
+21.Yacht Name : Princess Jacuzzi 88ft
+Address : Miami Beach Marina
+Year : 2012
+Location : Miami
+
+22.Yacht Name : Azimut 88ft
+Address : Island Gardens Marina
+Year : 2021
+Location : Miami
+
+23.Yacht Name : Azimut 94ft
+Address : Bayside Marina
+Year : 2020
+Location : Miami
+
+24.Yacht Name : Custom Line 95ft
+Address : Island Gardens Marina
+Year : 2018
+Location : Miami
+
+25.Yacht Name : Sunseeker 96ft
+Address : Miami Beach Marina
+Year : 2015
+Location : Miami
+
+26.Yacht Name : Sanlorenzo 97ft
+Address : Miami Beach Marina
+Year : 2012
+Location : Miami
+
+27.Yacht Name : Azimut 116ft
+Address : Miami Beach Marina
+Year : 2012
+Location : Miami
+
+
+view more gallary images url link
+https://drive.google.com/drive/folders/1KSmk01d7OSqhIuMPGfY7X966SvdsEhU9?usp=sharing
+-------------------------------------------------------------------------------------------------------------------------02-03-2025
+https://ycn.miami/brokers
+
+- set proper image according size
+https://bookmyyacht.us/yacht-detail820
+http://localhost/bmy/yacht-detail836
+http://localhost/bmy/yacht-detail838
+http://localhost/bmy/yacht-detail839
+http://localhost/bmy/yacht-detail844
+http://localhost/bmy/yacht-detail847
+
+- yacht-record mai FileModel mai jo image hai oh sigle update or delete ho jaye
+
+- Add Cruise:
+website
+.http://localhost/bmy/us/yacht-list	(done)
+.https://bookmyyacht.us/	(done)
+
+
+----------------------------------------------------------------------------09-04-2025
+selling price(current) or mrp price(new add)
+
+
+
+https://ycn.miami/ => 24 completed 
+
+https://ycn.miami/brokers total 27 yacht 'BENETEAU' yacht missing bookmyyacht.us
+
+
+
+3.Yacht Name : Sailing Catamaran 48ft (missing)
+10.Yacht Name : Leopard Jacuzzi 94ft (missing)
+18.Yacht Name : Aicon 75ft (missing)
+
+
+
+
+
+thumbnail 78
+mainContent 652
+	
+
+

@@ -1,0 +1,72 @@
+ERROR - 2024-07-31 01:28:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-31 01:28:16 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content C28A41400EE
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content C28A41400EE
+
+CRITICAL - 2024-07-31 06:35:58 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-31 15:04:30 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/yacht-booking.php on line 80.
+ 1 APPPATH/Views/yachtProject/us/yacht-booking.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-booking.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(351): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-31 20:44:20 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-31 20:44:21 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify()
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-31 21:44:30 --> ErrorException: Undefined variable $price
+in APPPATH/Views/yachtProject/us/booking-page.php on line 142.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(369): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBookingTest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,109 @@
+CRITICAL - 2025-04-03 02:47:27 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/booking-page.php on line 101.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(421): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-03 13:51:37 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-03 13:51:37 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content 072CF1003A8
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content 072CF1003A8
+
+ERROR - 2025-04-03 15:51:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-03 15:51:18 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content 1EFBF14018B
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content 1EFBF14018B
+
+CRITICAL - 2025-04-03 17:12:10 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/booking-page.php on line 142.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(421): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-04-03 21:08:21 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-03 21:08:21 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content 626FC6011A
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content 626FC6011A
+

@@ -1,0 +1,493 @@
+CRITICAL - 2024-07-18 01:37:10 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 02:39:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/booking-page.php on line 97.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(97): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(387): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBookingTest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 04:39:50 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 04:48:56 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 05:24:17 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 72.
+ 1 APPPATH/Controllers/Yacht.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:05:13 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:55 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:46:23 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:04:54 --> ErrorException: Undefined array key 1
+in APPPATH/Controllers/Yacht.php on line 81.
+ 1 APPPATH/Controllers/Yacht.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 12:33:11 --> ErrorException: Undefined array key 2
+in APPPATH/Controllers/Yacht.php on line 82.
+ 1 APPPATH/Controllers/Yacht.php(82): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 14:43:37 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 14:52:13 --> ErrorException: Undefined array key "token"
+in APPPATH/Views/yacht-record.php on line 419.
+ 1 APPPATH/Views/yacht-record.php(419): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yacht-record.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(503): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 15:15:58 --> ErrorException: Undefined array key "token"
+in APPPATH/Views/yacht-record.php on line 419.
+ 1 APPPATH/Views/yacht-record.php(419): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yacht-record.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(503): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecord()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 15:25:17 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 15:48:33 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 16:46:46 --> ErrorException: Undefined array key 1
+in APPPATH/Controllers/Yacht.php on line 81.
+ 1 APPPATH/Controllers/Yacht.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 17:28:28 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 17:35:37 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 20:42:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-18 20:42:38 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+The following SMTP error was encountered: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2024-07-18 20:42:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-18 20:42:50 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+The following SMTP error was encountered: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2024-07-18 20:44:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-18 20:44:03 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+The following SMTP error was encountered: 550 5.1.1 <ScottandTracyEvents>: Recipient address rejected: User unknown in local recipient table
+
+quit: 221 2.0.0 Bye
+
+CRITICAL - 2024-07-18 21:02:51 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes)
+in APPPATH/Views/payment-detail.php on line 160.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-18 21:03:00 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes)
+in APPPATH/Views/payment-detail.php on line 160.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-18 21:03:01 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH/Views/payment-detail.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-18 21:04:16 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes)
+in APPPATH/Views/payment-detail.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-18 22:02:36 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:02:45 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:02:50 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:04:01 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:04:09 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:05:08 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:05:12 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:05:24 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:05:44 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:05:58 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:01 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:08 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:20 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:42 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/Yacht.php on line 68.
+ 1 APPPATH/Controllers/Yacht.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:47 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:50 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:06:53 --> ErrorException: Undefined array key 3
+in APPPATH/Controllers/Yacht.php on line 83.
+ 1 APPPATH/Controllers/Yacht.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:08:25 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:08:25 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:08:27 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:08:30 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:08:31 --> ErrorException: Undefined array key 4
+in APPPATH/Controllers/Yacht.php on line 84.
+ 1 APPPATH/Controllers/Yacht.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:14:12 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/Yacht.php on line 68.
+ 1 APPPATH/Controllers/Yacht.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:17:41 --> ErrorException: Undefined array key 0
+in APPPATH/Controllers/Yacht.php on line 68.
+ 1 APPPATH/Controllers/Yacht.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 22:53:45 --> mysqli_sql_exception: Column 'token' cannot be null in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-18 22:53:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'token' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:53:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'token' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:53:45 --> [Caused by] mysqli_sql_exception: Column 'token' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-18 22:54:40 --> mysqli_sql_exception: Column 'token' cannot be null in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(802): CodeIgniter\Model->doInsert()
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(744): CodeIgniter\BaseModel->insert()
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-18 22:54:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'token' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 5 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:54:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'token' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 7 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 22:54:40 --> [Caused by] mysqli_sql_exception: Column 'token' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert()
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert()
+ 8 APPPATH/Controllers/NewYachtCRM.php(160): CodeIgniter\Model->insert()
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

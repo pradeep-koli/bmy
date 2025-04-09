@@ -1,0 +1,571 @@
+ERROR - 2024-03-19 13:56:39 --> mysqli_sql_exception: Unknown column 'duration' in 'field list' in C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\yachtProject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\yachtProject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\yachtProject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\yachtProject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\yachtProject\app\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\yachtProject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-19 13:56:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 13:56:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:26\', \'1 hour\', \'status\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:26\', \'1 hour\', \'status\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 13:56:39 --> [Caused by] mysqli_sql_exception: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:26\', \'1 hour\', \'status\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:26\', \'1 hour\', \'status\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:26\', \'1 hour\', \'status\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-19 13:58:45 --> mysqli_sql_exception: Unknown column 'duration' in 'field list' in C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\yachtProject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\yachtProject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\yachtProject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\yachtProject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\yachtProject\app\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\yachtProject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-19 13:58:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 13:58:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:28\', \'1 hour\', \'status\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:28\', \'1 hour\', \'status\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 13:58:45 --> [Caused by] mysqli_sql_exception: Unknown column 'duration' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:28\', \'1 hour\', \'status\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:28\', \'1 hour\', \'status\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (\'Classic Yacht\', \'sandeep\', \'1\', \'9763512471\', \'sandeep@gmail.com\', \'Pune\', \'good\', \'2024-03-20\', \'19:28\', \'1 hour\', \'status\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `service`, `booking_date`, `booking_time`, `duration`, `status`) VALUES (:hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :service:, :booking_date:, :booking_time:, :duration:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(118): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:21:46 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:22:56 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:22:58 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:22:58 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:22:58 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:48:07 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:48:20 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:26 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:27 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:27 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:27 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:29 --> ErrorException: Undefined variable $data
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:40 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:50:44 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:51:59 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:51:59 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 16:51:59 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\NewYachtCRM\calendar.php on line 89.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php', 89)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\yachtProject\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(14): view('NewYachtCRM/calendar')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 17:05:09 --> BadMethodCallException: Call to undefined method App\Models\YachtBookingModel::getBookings
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(15): CodeIgniter\Model->__call('getBookings', [])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 20:11:06 --> Error: Class "App\Controllers\ReservationModel" not found
+in APPPATH\Controllers\Yacht.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->saveBooking()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:26:49 --> ErrorException: Undefined array key "u_name"
+in APPPATH\Controllers\NewYachtCRM.php on line 35.
+ 1 APPPATH\Controllers\NewYachtCRM.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "u_name"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:49 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:50 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:50 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:50 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:50 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:54 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:54 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:54 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:58 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:28:58 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:16 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:56 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:56 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:56 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:56 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:56 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:29:57 --> BadMethodCallException: Call to undefined method App\Models\ReservationModel::getBookingsBetweenDates
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\NewYachtCRM.php(32): CodeIgniter\Model->__call('getBookingsBetweenDates', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:30:03 --> ErrorException: Undefined array key "u_name"
+in APPPATH\Controllers\NewYachtCRM.php on line 35.
+ 1 APPPATH\Controllers\NewYachtCRM.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "u_name"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:30:47 --> ErrorException: Undefined array key "u_name"
+in APPPATH\Controllers\NewYachtCRM.php on line 38.
+ 1 APPPATH\Controllers\NewYachtCRM.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "u_name"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:30:49 --> ErrorException: Undefined array key "u_name"
+in APPPATH\Controllers\NewYachtCRM.php on line 38.
+ 1 APPPATH\Controllers\NewYachtCRM.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "u_name"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:30:49 --> ErrorException: Undefined array key "u_name"
+in APPPATH\Controllers\NewYachtCRM.php on line 38.
+ 1 APPPATH\Controllers\NewYachtCRM.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "u_name"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:31:29 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Controllers\NewYachtCRM.php on line 50.
+ 1 APPPATH\Controllers\NewYachtCRM.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\htdocs\\yachtProject\\app\\Controllers\\NewYachtCRM.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-19 21:31:45 --> mysqli_sql_exception: Table 'yachtproject.tbl_holidays' doesn't exist in C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\yachtProject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\yachtProject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\yachtProject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\yachtProject\app\Models\ReservationModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\yachtProject\app\Controllers\NewYachtCRM.php(57): App\Models\ReservationModel->getHolidaysBetweenDates('2024-03-01', '2024-03-31')
+#6 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+#7 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#8 C:\xampp\htdocs\yachtProject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\yachtProject\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-19 21:31:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'yachtproject.tbl_holidays' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= :date:
+AND `date` <= :date.1:', [...], false)
+ 2 APPPATH\Models\ReservationModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\NewYachtCRM.php(57): App\Models\ReservationModel->getHolidaysBetweenDates('2024-03-01', '2024-03-31')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:31:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'yachtproject.tbl_holidays' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= \'2024-03-01\'
+AND `date` <= \'2024-03-31\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= \'2024-03-01\'
+AND `date` <= \'2024-03-31\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= :date:
+AND `date` <= :date.1:', [...], false)
+ 4 APPPATH\Models\ReservationModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\NewYachtCRM.php(57): App\Models\ReservationModel->getHolidaysBetweenDates('2024-03-01', '2024-03-31')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-19 21:31:45 --> [Caused by] mysqli_sql_exception: Table 'yachtproject.tbl_holidays' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= \'2024-03-01\'
+AND `date` <= \'2024-03-31\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= \'2024-03-01\'
+AND `date` <= \'2024-03-31\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= \'2024-03-01\'
+AND `date` <= \'2024-03-31\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_holidays`
+WHERE `date` >= :date:
+AND `date` <= :date.1:', [...], false)
+ 5 APPPATH\Models\ReservationModel.php(25): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\NewYachtCRM.php(57): App\Models\ReservationModel->getHolidaysBetweenDates('2024-03-01', '2024-03-31')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendarView()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

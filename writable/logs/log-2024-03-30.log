@@ -1,0 +1,882 @@
+CRITICAL - 2024-03-30 13:41:55 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 55.
+ 1 APPPATH\Controllers\Yacht.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('highToLow')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-30 13:42:58 --> mysqli_sql_exception: Unknown column 'hane' in 'order clause' in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\Yacht.php(47): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\Yacht->filter('descending')
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-30 13:42:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'hane' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Yacht.php(47): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('descending')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 13:42:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'hane' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Yacht.php(47): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('descending')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 13:42:58 --> [Caused by] mysqli_sql_exception: Unknown column 'hane' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `hane` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Yacht.php(47): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('descending')
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 14:51:54 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(98): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 14:52:09 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(98): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:05:41 --> ErrorException: Undefined variable $records
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:05:56 --> ErrorException: Undefined variable $records
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:05:56 --> ErrorException: Undefined variable $records
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:05:56 --> ErrorException: Undefined variable $records
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:05:57 --> ErrorException: Undefined variable $records
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $records', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:06:57 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 23.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:07:21 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 29.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:07:22 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 29.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:07:22 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 29.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 29)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:08:59 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:12:00 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:12:01 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:12:11 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:20:12 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:20:50 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:20:55 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:21:23 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:21:24 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:21:24 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:25:19 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:25:54 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:25:54 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:25:55 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:26:32 --> ErrorException: Undefined variable $pradeep
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 1.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pradeep', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 1)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:31:42 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:39:48 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:42:14 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:43:09 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:43:10 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:43:10 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:43:11 --> ParseError: Unclosed '{' on line 216 does not match ')'
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 222.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(64): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('ascending')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:44:16 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:37 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(64): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter('highToLow')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:38 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:40 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:40 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:41 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:45:41 --> ParseError: syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 223.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:47:32 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:48:36 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:50:48 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:50:49 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 15:50:49 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:05:41 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:18:54 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:21:48 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:29:17 --> ErrorException: Undefined variable $abc
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 220.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $abc', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 220)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:43:32 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:43:32 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:43:55 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:43:56 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:43:57 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:45:43 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:45:43 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:46:52 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 265.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:47:39 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 16:47:41 --> ParseError: syntax error, unexpected token "(", expecting ";"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 244.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 3 APPPATH\Controllers\Yacht.php(38): view('yachtProject/us/yacht-list', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 18:18:26 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 18:19:31 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 19:15:23 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(107): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:08:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:08:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/Booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/Booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/Booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/Booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:08:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/Booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/Booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/Booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/Booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:09:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:09:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:09:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:09:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:12:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:14:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:14:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:14:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-30 20:14:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/us/booking_DDS.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/us/booking_DDS.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking_DDS', [], true)
+ 3 APPPATH\Controllers\Yacht.php(162): view('yachtProject/us/booking_DDS')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookedYacht()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

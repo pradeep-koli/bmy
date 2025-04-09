@@ -1,0 +1,11 @@
+CRITICAL - 2024-06-09 12:10:12 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH/Views/yachtProject/us/yacht-detail.php on line 231.
+ 1 APPPATH/Views/yachtProject/us/yacht-detail.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-detail.php', 231, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-detail.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH/Controllers/Yacht.php(75): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

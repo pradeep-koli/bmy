@@ -1,0 +1,559 @@
+CRITICAL - 2024-05-25 13:42:49 --> ErrorException: Undefined array key "thumb-img"
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 52.
+ 1 APPPATH\Views\yachtProject\us\booking-confirm.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb-img"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php', 52)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-confirm', [], true)
+ 5 APPPATH\Controllers\Yacht.php(306): view('yachtProject/us/booking-confirm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingConfirm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 14:30:40 --> ErrorException: Cannot use [] for reading
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 14:30:43 --> ErrorException: Cannot use [] for reading
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 120.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 14:31:20 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 68.
+ 1 APPPATH\Views\yachtProject\us\booking-confirm.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php', 68)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-confirm', [], true)
+ 5 APPPATH\Controllers\Yacht.php(306): view('yachtProject/us/booking-confirm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingConfirm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 14:31:42 --> ErrorException: Undefined array key "build_name"
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 68.
+ 1 APPPATH\Views\yachtProject\us\booking-confirm.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "build_name"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php', 68)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-confirm', [], true)
+ 5 APPPATH\Controllers\Yacht.php(306): view('yachtProject/us/booking-confirm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingConfirm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:17:27 --> ErrorException: Undefined array key "thumb-img"
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 47.
+ 1 APPPATH\Views\yachtProject\us\booking-confirm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb-img"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-confirm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-confirm', [], true)
+ 5 APPPATH\Controllers\Yacht.php(306): view('yachtProject/us/booking-confirm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingConfirm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:23:44 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 27.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(55): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:24:20 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 27.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(55): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:24:21 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 27.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(55): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:24:21 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 27.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 27)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(55): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 15:34:02 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-form.php on line 99.
+ 1 APPPATH\Views\yachtProject\us\booking-form.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-form', [], true)
+ 5 APPPATH\Controllers\Yacht.php(159): view('yachtProject/us/booking-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookingForm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-25 18:34:25 --> mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-25 18:34:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:25 --> [Caused by] mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tbl_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-25 18:34:32 --> mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-25 18:34:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:32 --> [Caused by] mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tbl_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-25 18:34:36 --> mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-25 18:34:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:34:36 --> [Caused by] mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `tbl_users`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbl_users`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbl_users`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_users`', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\NewYachtCRM.php(101): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:35:27 --> ErrorException: Undefined array key "pwd"
+in APPPATH\Views\NewYachtCRM\user-details.php on line 100.
+ 1 APPPATH\Views\NewYachtCRM\user-details.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pwd"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/user-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(103): view('NewYachtCRM/user-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:36:59 --> ErrorException: Undefined array key "type"
+in APPPATH\Views\NewYachtCRM\user-details.php on line 105.
+ 1 APPPATH\Views\NewYachtCRM\user-details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "type"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/user-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(103): view('NewYachtCRM/user-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:37:06 --> ErrorException: Undefined array key "status"
+in APPPATH\Views\NewYachtCRM\user-details.php on line 105.
+ 1 APPPATH\Views\NewYachtCRM\user-details.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\user-details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/user-details', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(103): view('NewYachtCRM/user-details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->userDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-25 18:52:58 --> mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(129): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-25 18:52:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (:name:, :pwd:, :address:, :phone:, :email:, :type:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(129): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:52:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (\'dev\', NULL, \'abc address\', \'7845127845\', \'dev@gmail.com\', \'America\', \'active\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (\'dev\', NULL, \'abc address\', \'7845127845\', \'dev@gmail.com\', \'America\', \'active\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (:name:, :pwd:, :address:, :phone:, :email:, :type:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(129): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:52:58 --> [Caused by] mysqli_sql_exception: Table 'ciproject.tbl_users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (\'dev\', NULL, \'abc address\', \'7845127845\', \'dev@gmail.com\', \'America\', \'active\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (\'dev\', NULL, \'abc address\', \'7845127845\', \'dev@gmail.com\', \'America\', \'active\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (\'dev\', NULL, \'abc address\', \'7845127845\', \'dev@gmail.com\', \'America\', \'active\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_users` (`name`, `pwd`, `address`, `phone`, `email`, `type`, `status`) VALUES (:name:, :pwd:, :address:, :phone:, :email:, :type:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(129): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-25 18:56:48 --> mysqli_sql_exception: Column 'country' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(130): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-25 18:56:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'country' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (:name:, :email:, :password:, :phone:, :gender:, :address:, :country:, :role:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(130): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:56:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'country' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (\'dev\', \'dev@gmail.com\', \'$2y$10$EYdnI2BrTE9XfZ13imqiweBBlJEEutvznkQeqChpjuyvfaKVeCEdm\', \'7798423913\', \'male\', \'abc\', NULL, \'user\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (\'dev\', \'dev@gmail.com\', \'$2y$10$EYdnI2BrTE9XfZ13imqiweBBlJEEutvznkQeqChpjuyvfaKVeCEdm\', \'7798423913\', \'male\', \'abc\', NULL, \'user\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (:name:, :email:, :password:, :phone:, :gender:, :address:, :country:, :role:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(130): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 18:56:48 --> [Caused by] mysqli_sql_exception: Column 'country' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (\'dev\', \'dev@gmail.com\', \'$2y$10$EYdnI2BrTE9XfZ13imqiweBBlJEEutvznkQeqChpjuyvfaKVeCEdm\', \'7798423913\', \'male\', \'abc\', NULL, \'user\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (\'dev\', \'dev@gmail.com\', \'$2y$10$EYdnI2BrTE9XfZ13imqiweBBlJEEutvznkQeqChpjuyvfaKVeCEdm\', \'7798423913\', \'male\', \'abc\', NULL, \'user\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (\'dev\', \'dev@gmail.com\', \'$2y$10$EYdnI2BrTE9XfZ13imqiweBBlJEEutvznkQeqChpjuyvfaKVeCEdm\', \'7798423913\', \'male\', \'abc\', NULL, \'user\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`, `password`, `phone`, `gender`, `address`, `country`, `role`) VALUES (:name:, :email:, :password:, :phone:, :gender:, :address:, :country:, :role:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(130): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->createUserRegister()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:01:33 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\ManagerFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\ManagerFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:02:08 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\ManagerFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\ManagerFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:02:09 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\ManagerFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\ManagerFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:03:22 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\ManagerFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\ManagerFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:13:07 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 35.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:16:16 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 35.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:16:20 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 35.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:18:31 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:18:32 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:18:33 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:19:26 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:19:27 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:19:39 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:20:06 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:20:06 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:20:06 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:20:07 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:20:22 --> ErrorException: Cannot declare class App\Filters\AdminFilter because the name is already in use
+in APPPATH\Filters\AdminFilter.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 20:20:22 --> ErrorException: Cannot declare class App\Filters\AdminFilter because the name is already in use
+in APPPATH\Filters\AdminFilter.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 20:20:22 --> ErrorException: Cannot declare class App\Filters\AdminFilter because the name is already in use
+in APPPATH\Filters\AdminFilter.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 20:20:50 --> ErrorException: Cannot declare class App\Filters\AdminFilter because the name is already in use
+in APPPATH\Filters\AdminFilter.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-25 20:22:58 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 19.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:23:22 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:23:22 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:23:22 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-25 20:23:22 --> Error: Call to undefined function App\Filters\isLoggedIn()
+in APPPATH\Filters\AdminFilter.php on line 15.
+ 1 SYSTEMPATH\Filters\Filters.php(182): App\Filters\AdminFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('calendar', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

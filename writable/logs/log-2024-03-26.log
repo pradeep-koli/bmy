@@ -1,0 +1,361 @@
+CRITICAL - 2024-03-26 20:22:51 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:23:45 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:24:10 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(119): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:24:10 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\privacy.php on line 113.
+ 1 APPPATH\Views\yachtProject\privacy.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\privacy.php', 113)
+ 2 APPPATH\Views\yachtProject\privacy.php(113): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\privacy.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/privacy', [], true)
+ 6 APPPATH\Controllers\Yacht.php(124): view('yachtProject/privacy')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->privacy()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:24:10 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\refund.php on line 109.
+ 1 APPPATH\Views\yachtProject\refund.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\refund.php', 109)
+ 2 APPPATH\Views\yachtProject\refund.php(109): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\refund.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/refund', [], true)
+ 6 APPPATH\Controllers\Yacht.php(129): view('yachtProject/refund')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->refund()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:24:11 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\support.php on line 63.
+ 1 APPPATH\Views\yachtProject\support.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\support.php', 63)
+ 2 APPPATH\Views\yachtProject\support.php(63): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\support.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/support', [], true)
+ 6 APPPATH\Controllers\Yacht.php(134): view('yachtProject/support')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->support()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-26 20:30:46 --> mysqli_sql_exception: Unknown column 'yacht_type' in 'order clause' in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\Yacht.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-26 20:30:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Yacht.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:30:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Yacht.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:30:46 --> [Caused by] mysqli_sql_exception: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Yacht.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:46:02 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:46:55 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 20:47:02 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:24:09 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:25:29 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:27:05 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:29:06 --> ParseError: syntax error, unexpected token "[", expecting variable or "{" or "$"
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:29:15 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 4 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:29:45 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:51:57 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 21:54:05 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 26.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(94): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:23:48 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:23:50 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\privacy.php on line 113.
+ 1 APPPATH\Views\yachtProject\privacy.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\privacy.php', 113)
+ 2 APPPATH\Views\yachtProject\privacy.php(113): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\privacy.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/privacy', [], true)
+ 6 APPPATH\Controllers\Yacht.php(125): view('yachtProject/privacy')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->privacy()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:23:53 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\refund.php on line 109.
+ 1 APPPATH\Views\yachtProject\refund.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\refund.php', 109)
+ 2 APPPATH\Views\yachtProject\refund.php(109): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\refund.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/refund', [], true)
+ 6 APPPATH\Controllers\Yacht.php(130): view('yachtProject/refund')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->refund()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:23:56 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\support.php on line 63.
+ 1 APPPATH\Views\yachtProject\support.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\support.php', 63)
+ 2 APPPATH\Views\yachtProject\support.php(63): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\support.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/support', [], true)
+ 6 APPPATH\Controllers\Yacht.php(135): view('yachtProject/support')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->support()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:27:58 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:28:10 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:28:55 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:32:03 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 11.
+ 1 APPPATH\Views\yachtProject\terms.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 11)
+ 2 APPPATH\Views\yachtProject\terms.php(11): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-26 22:32:12 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yachtProject\terms.php on line 114.
+ 1 APPPATH\Views\yachtProject\terms.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php', 114)
+ 2 APPPATH\Views\yachtProject\terms.php(114): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\terms.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/terms', [], true)
+ 6 APPPATH\Controllers\Yacht.php(120): view('yachtProject/terms')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->terms()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

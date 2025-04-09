@@ -1,0 +1,41 @@
+CRITICAL - 2025-01-07 01:07:32 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/yachtProject/us/booking-page.php on line 101.
+ 1 APPPATH/Views/yachtProject/us/booking-page.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/booking-page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Yacht.php(370): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtBookingTest()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-07 16:24:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-01-07 16:24:59 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.4.6 An email sent to this address has been rejected with the reason 'Mailbox does not exist' within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created
+
+The following SMTP error was encountered: 550 5.4.6 An email sent to this address has been rejected with the reason 'Mailbox does not exist' within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created
+
+quit: 221 2.0.0 Bye
+
+CRITICAL - 2025-01-07 18:22:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

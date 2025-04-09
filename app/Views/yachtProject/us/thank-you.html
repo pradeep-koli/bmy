@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom styles */
+    #successMessage {
+      display: none;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+      color: #155724;
+      border-radius: 5px;
+    }
+
+    #errorMessage {
+      display: none;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+      color: #721c24;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <form method="post" id="myForm" action="<?= base_url('user-contact'); ?>">
+      <?= csrf_field()?>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="contact">Contact Number</label>
+            <input type="text" class="form-control" id="contact" name="contact" placeholder="Your Contact Number" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>Who are you?</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ownerCustomer" id="owner" value="Owner" required>
+              <label class="form-check-label" for="owner">Yacht Owner</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ownerCustomer" id="customer" value="Customer" required>
+              <label class="form-check-label" for="customer">Customer</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Write your message..." required></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary" id="submitBtn">Send Your Message</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="alert alert-success" role="alert">
+      <strong>Success!</strong> Form submitted successfully.
+    </div>
+
+    <!-- Error Message -->
+    <div id="errorMessage" class="alert alert-danger" role="alert">
+      <strong>Error!</strong> Error submitting form. Please try again later.
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional, for some functionalities) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script>
+    // Function to validate form fields
+    function validateForm() {
+      // Example validation: Check if email is valid
+      var email = document.getElementById('email').value;
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        alert('Please enter a valid email address.');
+        return false;
+      }
+
+      // You can add more validation here if needed
+
+      return true;
+    }
+
+    // jQuery function to handle form submission
+    $(document).ready(function() {
+      $('#myForm').submit(function(e) {
+        e.preventDefault(); // Prevent actual form submission
+
+        // Perform client-side validation if needed
+        if (!validateForm()) {
+          return false;
+        }
+
+        // Assuming AJAX submission for demonstration purposes
+        $.ajax({
+          url: $(this).attr('action'),
+          type: 'POST',
+          data: $(this).serialize(),
+          success: function(response) {
+            // Show success message and hide form
+            $('#myForm').hide();
+            $('#successMessage').fadeIn();
+          },
+          error: function(xhr, status, error) {
+            // Show error message
+            $('#errorMessage').fadeIn();
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

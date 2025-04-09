@@ -1,0 +1,78 @@
+CRITICAL - 2024-06-19 14:01:23 --> ErrorException: Undefined variable $holidays
+in APPPATH\Views\NewYachtCRM\calendar.php on line 415.
+ 1 APPPATH\Views\NewYachtCRM\calendar.php(415): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $holidays', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php', 415)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\NewYachtCRM\\calendar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 22:53:27 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 22:54:06 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 22:54:45 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 22:55:53 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 22:56:06 --> ErrorException: Undefined array key "images"
+in APPPATH\Views\yacht-detail.php on line 205.
+ 1 APPPATH\Views\yacht-detail.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "images"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-19 23:03:13 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+in APPPATH\Views\yacht-detail.php on line 872.
+ 1 APPPATH\Views\yacht-detail.php(872): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php', 872)
+ 2 APPPATH\Views\yacht-detail.php(872): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yacht-detail.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-detail', [], true)
+ 6 APPPATH\Controllers\Yacht.php(68): view('yacht-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

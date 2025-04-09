@@ -1,0 +1,22 @@
+CRITICAL - 2024-04-25 22:02:53 --> ErrorException: Undefined variable $enquiry
+in APPPATH\Views\yachtProject\index.php on line 212.
+ 1 APPPATH\Views\yachtProject\index.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $enquiry', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\index.php', 212)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(21): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 22:04:38 --> ErrorException: Undefined variable $enquiry
+in APPPATH\Views\yachtProject\index.php on line 212.
+ 1 APPPATH\Views\yachtProject\index.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $enquiry', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\index.php', 212)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/index', [], true)
+ 5 APPPATH\Controllers\Yacht.php(21): view('yachtProject/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

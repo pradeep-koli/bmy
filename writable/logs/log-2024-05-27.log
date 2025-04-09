@@ -1,0 +1,523 @@
+CRITICAL - 2024-05-27 15:40:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('login/home', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:19:33 --> ErrorException: Undefined variable $user
+in APPPATH\Views\sidebar.php on line 9.
+ 1 APPPATH\Views\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\sidebar.php', 9)
+ 2 APPPATH\Views\index.php(44): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(21): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->dashboardPage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:20:49 --> ErrorException: Undefined variable $user
+in APPPATH\Views\sidebar.php on line 9.
+ 1 APPPATH\Views\sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\sidebar.php', 9)
+ 2 APPPATH\Views\index.php(44): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 6 APPPATH\Controllers\Home.php(21): view('index')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->dashboardPage()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:23:31 --> ParseError: syntax error, unexpected token "endif", expecting end of file
+in APPPATH\Views\sidebar.php on line 64.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('index')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->dashboardPage()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 19:55:41 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('login/home', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:03:24 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\yacht-record.php on line 234.
+ 1 APPPATH\Views\yacht-record.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yacht-record.php', 234)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yacht-record.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yacht-record', [], true)
+ 5 APPPATH\Controllers\Home.php(241): view('yacht-record', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecord()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 21:12:16 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\cigovind\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\cigovind\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cigovind\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cigovind\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\cigovind\app\Controllers\Home.php(215): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+#9 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cigovind\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-27 21:12:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:12:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:12:16 --> [Caused by] mysqli_sql_exception: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 21:12:50 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\cigovind\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\cigovind\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cigovind\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cigovind\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\cigovind\app\Controllers\Home.php(215): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+#9 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cigovind\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-27 21:12:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:12:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 21:12:50 --> [Caused by] mysqli_sql_exception: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (NULL, \'	LY456\', \'	150 feet\', \'Extra Large\', \'Opulent Odyssey\', \'Luxury Yachts\', \'	Quad Diesel\', \'30 knots\', \'Diego Hernandez\', \'2022\', \'18\', \'9\', \'300\', \'luxuryYacht.avif\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(215): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:33:32 --> ErrorException: Undefined variable $imgName
+in APPPATH\Controllers\Home.php on line 216.
+ 1 APPPATH\Controllers\Home.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imgName', 'C:\\xampp\\htdocs\\cigovind\\app\\Controllers\\Home.php', 216)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:53:01 --> ErrorException: Undefined variable $userModel
+in APPPATH\Controllers\Home.php on line 247.
+ 1 APPPATH\Controllers\Home.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\cigovind\\app\\Controllers\\Home.php', 247)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 22:53:55 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cigovind\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cigovind\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cigovind\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cigovind\app\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+#8 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cigovind\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-27 22:53:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:53:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:53:55 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-27 22:54:47 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\cigovind\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cigovind\system\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cigovind\system\BaseModel.php(676): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\cigovind\app\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+#8 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cigovind\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-27 22:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:54:47 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+WHERE `email` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(270): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Home.php(247): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:55:08 --> ErrorException: Undefined variable $user
+in APPPATH\Controllers\Home.php on line 249.
+ 1 APPPATH\Controllers\Home.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\cigovind\\app\\Controllers\\Home.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:56:23 --> Error: Cannot use object of type App\Models\YachtModel as array
+in APPPATH\Controllers\Home.php on line 249.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 22:56:44 --> Error: Cannot use object of type App\Models\YachtModel as array
+in APPPATH\Controllers\Home.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtSession()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:00:21 --> ErrorException: Cannot redeclare App\Controllers\Home::do_login()
+in APPPATH\Controllers\Home.php on line 240.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-05-27 23:22:25 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 635.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:22:25 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 635.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:22:25 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 635.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:22:31 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 635.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:23:23 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 604.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:23:23 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 604.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:23:24 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 604.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:24:34 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 602.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:24:34 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 602.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:24:35 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 602.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:24:35 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\calendar.php on line 602.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/calendar', [], true)
+ 3 APPPATH\Controllers\NewYachtCRM.php(31): view('NewYachtCRM/calendar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->calendar()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:26:42 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\sidebar.php on line 114.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:28:23 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\NewYachtCRM\sidebar.php on line 114.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 4 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:35:29 --> ErrorException: Undefined variable $yacht
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 98.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yacht', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 98)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:36:17 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 100.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:36:36 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 100.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:36:37 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 100.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 23:36:37 --> ErrorException: Undefined array key "username"
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 100.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 100)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(54): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

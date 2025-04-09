@@ -1,0 +1,34 @@
+CRITICAL - 2024-08-05 05:29:33 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-05 06:26:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-05 06:26:07 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content 8C868100187
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content 8C868100187
+

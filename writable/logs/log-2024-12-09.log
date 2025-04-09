@@ -1,0 +1,40 @@
+ERROR - 2024-12-09 23:34:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/Yacht.php(22): CodeIgniter\BaseModel->findAll()
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\Yacht->index()
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/Yacht.php(22): CodeIgniter\BaseModel->findAll()
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\Yacht->index()
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-09 23:34:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Controllers/Yacht.php(22): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

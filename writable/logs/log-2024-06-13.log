@@ -1,0 +1,97 @@
+ERROR - 2024-06-13 13:47:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u679963801_bmy'@'localhost' (using password: YES) in C:\xampp\htdocs\bmy\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\bmy\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'u679963801_bmy', Object(SensitiveParameterValue), 'u679963801_bmy', 3306, '', 0)
+#1 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\bmy\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\bmy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\bmy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\bmy\app\Controllers\Yacht.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\bmy\system\CodeIgniter.php(941): App\Controllers\Yacht->index()
+#8 C:\xampp\htdocs\bmy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#9 C:\xampp\htdocs\bmy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\bmy\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\bmy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\bmy\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\bmy\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\bmy\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\bmy\app\Controllers\Yacht.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\bmy\system\CodeIgniter.php(941): App\Controllers\Yacht->index()
+#7 C:\xampp\htdocs\bmy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#8 C:\xampp\htdocs\bmy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\bmy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-13 13:47:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Yacht.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:17:32 --> ErrorException: Undefined variable $bookings
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 399.
+ 1 APPPATH\Views\yachtProject\us\yacht-detail.php(399): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bookings', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\yacht-detail.php', 399)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\yacht-detail.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:27:55 --> ParseError: syntax error, unexpected token "<="
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 386.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:28:14 --> ParseError: syntax error, unexpected token "<="
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 386.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:28:15 --> ParseError: syntax error, unexpected token "<="
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 386.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:28:15 --> ParseError: syntax error, unexpected token "<="
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 386.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 21:28:15 --> ParseError: syntax error, unexpected token "<="
+in APPPATH\Views\yachtProject\us\yacht-detail.php on line 386.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 3 APPPATH\Controllers\Yacht.php(53): view('yachtProject/us/yacht-detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEdit('54')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,42 @@
+CRITICAL - 2024-05-01 13:34:59 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-form.php on line 86.
+ 1 APPPATH\Views\yachtProject\us\booking-form.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-form', [], true)
+ 5 APPPATH\Controllers\Yacht.php(150): view('yachtProject/us/booking-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookingForm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 14:37:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "yachtProject/booking-test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('yachtProject/booking-test.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/booking-test', [], true)
+ 3 APPPATH\Controllers\Yacht.php(288): view('yachtProject/booking-test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingTest()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 14:43:44 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-form.php on line 86.
+ 1 APPPATH\Views\yachtProject\us\booking-form.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php', 86)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-form', [], true)
+ 5 APPPATH\Controllers\Yacht.php(149): view('yachtProject/us/booking-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookingForm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-01 18:26:23 --> ErrorException: Undefined array key "yacht_name"
+in APPPATH\Views\yachtProject\us\booking-form.php on line 177.
+ 1 APPPATH\Views\yachtProject\us\booking-form.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "yacht_name"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php', 177)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\booking-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-form', [], true)
+ 5 APPPATH\Controllers\Yacht.php(156): view('yachtProject/us/booking-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBookingTest('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

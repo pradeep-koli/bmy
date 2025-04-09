@@ -1,0 +1,221 @@
+CRITICAL - 2024-06-06 15:51:20 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 18:50:29 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 18:50:35 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 18:51:09 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 18:51:37 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 18:51:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:54:10 --> Error: Call to a member function paginate() on array
+in APPPATH/Controllers/Yacht.php on line 302.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:54:22 --> Error: Call to a member function paginate() on array
+in APPPATH/Controllers/Yacht.php on line 302.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:54:46 --> Error: Call to a member function paginate() on array
+in APPPATH/Controllers/Yacht.php on line 302.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:55:05 --> Error: Call to a member function paginate() on array
+in APPPATH/Controllers/Yacht.php on line 302.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:55:10 --> Error: Call to a member function paginate() on array
+in APPPATH/Controllers/Yacht.php on line 302.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 20:58:30 --> Error: Call to a member function links() on null
+in APPPATH/Views/yachtProject/us/yacht-list.php on line 491.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 4 APPPATH/Controllers/Yacht.php(308): view('yachtProject/us/yacht-list', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->filterYachts()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 21:06:50 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 21:08:12 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH/Security/Security.php on line 300.
+ 1 SYSTEMPATH/Security/Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH/Filters/CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH/Filters/Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 22:06:02 --> mysqli_sql_exception: Column 'thumb-img' cannot be null in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/Home.php(220): CodeIgniter\Model->insert(Array)
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-06 22:06:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 22:06:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 22:06:02 --> [Caused by] mysqli_sql_exception: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-06 22:06:08 --> mysqli_sql_exception: Column 'thumb-img' cannot be null in /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 /home/u679963801/domains/bookmyyacht.us/public_html/system/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u679963801/domains/bookmyyacht.us/public_html/system/BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 /home/u679963801/domains/bookmyyacht.us/public_html/system/Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/u679963801/domains/bookmyyacht.us/public_html/app/Controllers/Home.php(220): CodeIgniter\Model->insert(Array)
+#8 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+#9 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 /home/u679963801/domains/bookmyyacht.us/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u679963801/domains/bookmyyacht.us/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-06-06 22:06:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 2 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 22:06:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 4 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 22:06:08 --> [Caused by] mysqli_sql_exception: Column 'thumb-img' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (\'raj\', \'Custom\', \'76\', \'Medium\', \'ZEUS YACHT\', \'Florida\', \'Fishing Yachts\', \'twin MTU engines\', \'35\', \'\', \'\', \'\', \'\', \'\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht` (`username`, `build_name`, `yacht_length`, `size`, `hname`, `location`, `yacht_type`, `engine`, `max_speed`, `builder`, `year_of_build`, `guest`, `cabin`, `price`, `thumb-img`) VALUES (:username:, :build_name:, :yacht_length:, :size:, :hname:, :location:, :yacht_type:, :engine:, :max_speed:, :builder:, :year_of_build:, :guest:, :cabin:, :price:, :thumb-img:)', [...], false)
+ 5 SYSTEMPATH/Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Home.php(220): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-06 23:28:14 --> ErrorException: Invalid argument supplied for foreach()
+in APPPATH/Views/yachtProject/us/yacht-detail.php on line 231.
+ 1 APPPATH/Views/yachtProject/us/yacht-detail.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-detail.php', 231, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u679963801/domains/bookmyyacht.us/public_html/app/Views/yachtProject/us/yacht-detail.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-detail', [], true)
+ 5 APPPATH/Controllers/Yacht.php(75): view('yachtProject/us/yacht-detail', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtDetail()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

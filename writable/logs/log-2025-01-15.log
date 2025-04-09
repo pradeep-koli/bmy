@@ -1,0 +1,107 @@
+CRITICAL - 2025-01-15 20:20:12 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:07 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:14 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:43:56 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-15 22:48:34 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\yachtProject\us\booking-page.php on line 142.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 142)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(407): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

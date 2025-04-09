@@ -1,0 +1,29 @@
+ERROR - 2025-04-08 13:36:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-04-08 13:36:54 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 250 2.1.5 Ok
+
+to: 250 2.1.5 Ok
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+550 5.7.1 Mail contain spam content 6BBAFE0359
+
+quit: 221 2.0.0 Bye
+
+The following SMTP error was encountered: 550 5.7.1 Mail contain spam content 6BBAFE0359
+

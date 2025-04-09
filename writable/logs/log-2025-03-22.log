@@ -1,0 +1,69 @@
+ERROR - 2025-03-22 20:53:51 --> mysqli_sql_exception: Column 'plan_description' cannot be null in C:\xampp\htdocs\bmy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\bmy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\bmy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\bmy\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\bmy\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\bmy\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\bmy\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\bmy\app\Controllers\Yacht.php(449): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\bmy\system\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+#9 C:\xampp\htdocs\bmy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#10 C:\xampp\htdocs\bmy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\bmy\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-03-22 20:53:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'plan_description' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (:yacht_id:, :token:, :yacht_type:, :hname:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :price:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Yacht.php(449): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-22 20:53:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'plan_description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (\'832\', \'laurent\', \'Motor Yachts\', \'Galeon\', \'laurent\', \'Pradeep K\', \'2\', \'7984562122\', \'pradeep@gmail.com\', \'abc\', \'2025-03-22\', \'20:53\', \'3680\', NULL, \'Pending\', \'2025-03-22 20:53 PM\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (\'832\', \'laurent\', \'Motor Yachts\', \'Galeon\', \'laurent\', \'Pradeep K\', \'2\', \'7984562122\', \'pradeep@gmail.com\', \'abc\', \'2025-03-22\', \'20:53\', \'3680\', NULL, \'Pending\', \'2025-03-22 20:53 PM\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (:yacht_id:, :token:, :yacht_type:, :hname:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :price:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Yacht.php(449): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-22 20:53:51 --> [Caused by] mysqli_sql_exception: Column 'plan_description' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (\'832\', \'laurent\', \'Motor Yachts\', \'Galeon\', \'laurent\', \'Pradeep K\', \'2\', \'7984562122\', \'pradeep@gmail.com\', \'abc\', \'2025-03-22\', \'20:53\', \'3680\', NULL, \'Pending\', \'2025-03-22 20:53 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (\'832\', \'laurent\', \'Motor Yachts\', \'Galeon\', \'laurent\', \'Pradeep K\', \'2\', \'7984562122\', \'pradeep@gmail.com\', \'abc\', \'2025-03-22\', \'20:53\', \'3680\', NULL, \'Pending\', \'2025-03-22 20:53 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (\'832\', \'laurent\', \'Motor Yachts\', \'Galeon\', \'laurent\', \'Pradeep K\', \'2\', \'7984562122\', \'pradeep@gmail.com\', \'abc\', \'2025-03-22\', \'20:53\', \'3680\', NULL, \'Pending\', \'2025-03-22 20:53 PM\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`yacht_id`, `token`, `yacht_type`, `hname`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `price`, `plan_description`, `status`, `adate`) VALUES (:yacht_id:, :token:, :yacht_type:, :hname:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :price:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Yacht.php(449): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-22 17:45:17 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-03-22 19:48:28 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('update-status', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

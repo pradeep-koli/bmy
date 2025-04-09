@@ -1,0 +1,838 @@
+CRITICAL - 2024-03-29 18:36:18 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('us/contact', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 18:36:49 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('us/contact', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 20:14:56 --> mysqli_sql_exception: Unknown column 'yacht_type' in 'order clause' in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ciproject\app\Controllers\Yacht.php(41): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-29 20:14:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Yacht.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 20:14:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Yacht.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 20:14:56 --> [Caused by] mysqli_sql_exception: Unknown column 'yacht_type' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `yacht`
+ORDER BY `yacht_type` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Yacht.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:16:43 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:16:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:16:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:16:43\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:16:43\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:16:43 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:16:43\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:16:43\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:16:43\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:17:52 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:17:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:17:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:17:52\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:17:52\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:17:52 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:17:52\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:17:52\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'9130657117\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:17:52\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:18:28 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:18:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:18:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'7798423913\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:18:28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'7798423913\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:18:28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:18:28 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'7798423913\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:18:28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'7798423913\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:18:28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'motar yacht\', NULL, \'2\', \'7798423913\', \'rahul@gmail.com\', \'US\', \'2024-04-04\', \'15:46\', \'2 hour\', \'pending\', \'2024-03-29 22:18:28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:22:06 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:22:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:22:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:22:06\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:22:06\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:22:06 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:22:06\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:22:06\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:22:06\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:24:36 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:24:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:24:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:24:36\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:24:36\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:24:36 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:24:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:24:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:24:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:26:25 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:26:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:26:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:25\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:25\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:26:25 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:26:29 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:26:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:26:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:29\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:29\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:26:29 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'fisher yacht\', NULL, \'2\', \'9745127845\', \'rahul@gmail.com\', \'nashik\', \'2024-04-04\', \'15:52\', \'2 hour\', \'pending\', \'2024-03-29 22:26:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:27:20 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:27:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:27:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:27:20\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:27:20\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:27:20 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:27:20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:27:20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:27:20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-29 22:28:39 --> mysqli_sql_exception: Column 'customer_name' cannot be null in C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ciproject\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\ciproject\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\ciproject\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\ciproject\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ciproject\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ciproject\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ciproject\app\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+#9 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+#10 C:\xampp\htdocs\ciproject\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ciproject\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-03-29 22:28:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:28:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:28:39\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:28:39\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:28:39 --> [Caused by] mysqli_sql_exception: Column 'customer_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:28:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:28:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'classic yacht\', NULL, \'2\', \'145\', \'rahul@gmail.com\', \'adf\', \'2024-04-04\', \'15:57\', \'2 hour\', \'pending\', \'2024-03-29 22:28:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `hname`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :hname:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\NewYachtCRM.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->saveBooking()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:44:17 --> Error: Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\Yacht.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:44:34 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:46:31 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:46:32 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:46:33 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:46:33 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:46:33 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 33.
+ 1 APPPATH\Controllers\Yacht.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:53:30 --> Error: Class "App\Controllers\ProductModel" not found
+in APPPATH\Controllers\Yacht.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 22:53:43 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 216.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 216)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:02:36 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:02:36 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:03:31 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 222.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 222)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:03:32 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 222.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 222)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:03:32 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 222.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 222)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:05:04 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(31): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:06:06 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(51): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:06:06 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(51): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:06:07 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(51): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:06:07 --> ErrorException: Undefined variable $products
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 201.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 201)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(51): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:14:54 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 37.
+ 1 APPPATH\Controllers\Yacht.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:16:22 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 37.
+ 1 APPPATH\Controllers\Yacht.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:16:23 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 37.
+ 1 APPPATH\Controllers\Yacht.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:16:23 --> ErrorException: Undefined variable $sortBy
+in APPPATH\Controllers\Yacht.php on line 37.
+ 1 APPPATH\Controllers\Yacht.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sortBy', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:17:00 --> ArgumentCountError: Too few arguments to function App\Controllers\Yacht::filter(), 0 passed in C:\xampp\htdocs\ciproject\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Yacht.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->filter()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:19:57 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:20:14 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:20:15 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:20:15 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:20:15 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:20:16 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Yacht.php on line 29.
+ 1 APPPATH\Controllers\Yacht.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ciproject\\app\\Controllers\\Yacht.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:26:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product', [], true)
+ 3 APPPATH\Controllers\Yacht.php(30): view('product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:26:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('product', [], true)
+ 3 APPPATH\Controllers\Yacht.php(30): view('product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-29 23:27:17 --> ErrorException: Undefined variable $yachtList
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 216.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yachtList', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 216)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(30): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

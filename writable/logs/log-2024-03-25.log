@@ -1,0 +1,94 @@
+CRITICAL - 2024-03-25 16:08:56 --> ErrorException: Undefined variable $user
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:10:34 --> ErrorException: Undefined variable $user
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:10:35 --> ErrorException: Undefined variable $user
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:10:35 --> ErrorException: Undefined variable $user
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:10:38 --> ErrorException: Undefined variable $user
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 107.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:11:24 --> ErrorException: Undefined variable $record
+in APPPATH\Views\NewYachtCRM\admin-yacht-booking.php on line 101.
+ 1 APPPATH\Views\NewYachtCRM\admin-yacht-booking.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php', 101)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\NewYachtCRM\\admin-yacht-booking.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('NewYachtCRM/admin-yacht-booking', [], true)
+ 5 APPPATH\Controllers\NewYachtCRM.php(34): view('NewYachtCRM/admin-yacht-booking', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\NewYachtCRM->adminYachtBooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NewYachtCRM))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:15:10 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(184): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('users/delete/1', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-25 16:22:07 --> ErrorException: Cannot redeclare App\Controllers\NewYachtCRM::delete()
+in APPPATH\Controllers\NewYachtCRM.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-25 16:22:07 --> ErrorException: Cannot redeclare App\Controllers\NewYachtCRM::delete()
+in APPPATH\Controllers\NewYachtCRM.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-25 16:22:07 --> ErrorException: Cannot redeclare App\Controllers\NewYachtCRM::delete()
+in APPPATH\Controllers\NewYachtCRM.php on line 134.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-25 21:28:09 --> ErrorException: Undefined array key "yacht_type"
+in APPPATH\Views\yachtProject\us\yacht-list.php on line 322.
+ 1 APPPATH\Views\yachtProject\us\yacht-list.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "yacht_type"', 'C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php', 322)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ciproject\\app\\Views\\yachtProject\\us\\yacht-list.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/yacht-list', [], true)
+ 5 APPPATH\Controllers\Yacht.php(51): view('yachtProject/us/yacht-list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtList()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

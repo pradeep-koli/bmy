@@ -1,0 +1,151 @@
+ERROR - 2024-07-29 15:19:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-29 15:19:43 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+
+The following SMTP error was encountered: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2024-07-29 15:19:43 --> Email not sent: 220 smtp-out.flockmail.com ESMTP Postfix
+<br><pre>hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>from: 250 2.1.0 Ok
+</pre><pre>to: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+</pre>The following SMTP error was encountered: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+<br><pre>quit: 221 2.0.0 Bye
+</pre>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Mon, 29 Jul 2024 15:19:43 +0000
+From: &quot;Book My Yacht&quot; &lt;web@bookmyyacht.us&gt;
+Return-Path: &lt;web@bookmyyacht.us&gt;
+To: raj@gmail.com
+Subject: =?UTF-8?Q?Password=20Reset=20Request=20?=
+Reply-To: &lt;web@bookmyyacht.us&gt;
+User-Agent: CodeIgniter
+X-Sender: web@bookmyyacht.us
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66a7b30f48d074.53131659@bookmyyacht.us&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66a7b30f48d107.32512890&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66a7b30f48d107.32512890
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your OTP code is: 209025
+
+
+--B_ALT_66a7b30f48d107.32512890
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Your OTP code is: 209025
+
+--B_ALT_66a7b30f48d107.32512890--</pre>
+ERROR - 2024-07-29 15:19:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-07-29 15:19:44 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+
+The following SMTP error was encountered: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+
+quit: 221 2.0.0 Bye
+
+ERROR - 2024-07-29 15:19:44 --> Email not sent: 220 smtp-out.flockmail.com ESMTP Postfix
+<br><pre>hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+</pre><pre>from: 250 2.1.0 Ok
+</pre><pre>to: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+</pre>The following SMTP error was encountered: 550 5.4.6 <raj@gmail.com>: Recipient address rejected: An email sent to this address has been rejected with the reason    Mailbox does not exist    within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created.
+<br><pre>quit: 221 2.0.0 Bye
+</pre>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Mon, 29 Jul 2024 15:19:44 +0000
+From: &quot;Book My Yacht&quot; &lt;web@bookmyyacht.us&gt;
+Return-Path: &lt;web@bookmyyacht.us&gt;
+To: raj@gmail.com
+Subject: =?UTF-8?Q?Password=20Reset=20Request=20?=
+Reply-To: &lt;web@bookmyyacht.us&gt;
+User-Agent: CodeIgniter
+X-Sender: web@bookmyyacht.us
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;66a7b310ac3049.89259084@bookmyyacht.us&gt;
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_66a7b310ac3131.28007901&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_66a7b310ac3131.28007901
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your OTP code is: 934450
+
+
+--B_ALT_66a7b310ac3131.28007901
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Your OTP code is: 934450
+
+--B_ALT_66a7b310ac3131.28007901--</pre>
+CRITICAL - 2024-07-29 23:48:20 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Controllers/Yacht.php on line 71.
+ 1 APPPATH/Controllers/Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,116 @@
+CRITICAL - 2025-01-13 14:38:41 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 16:16:51 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 17:51:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('yacht/insert-record', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 18:43:44 --> ErrorException: Undefined array key "plan_description"
+in APPPATH\Views\yachtProject\us\booking-page.php on line 262.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "plan_description"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 262)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(396): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 18:47:16 --> ErrorException: Undefined array key "hour"
+in APPPATH\Views\yachtProject\us\booking-page.php on line 262.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hour"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 262)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(396): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 18:47:42 --> ErrorException: Undefined variable $hour
+in APPPATH\Views\yachtProject\us\booking-page.php on line 262.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hour', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 262)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(396): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 18:54:38 --> ErrorException: Undefined array key "hours"
+in APPPATH\Views\yachtProject\us\booking-page.php on line 147.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hours"', 'C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php', 147)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\bmy\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(398): view('yachtProject/us/booking-page', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->gotobooking()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 20:05:49 --> Error: Class "App\Models\FacilitiesServicesModel" not found
+in APPPATH\Controllers\Home.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordInsert()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 20:07:10 --> Error: Class "App\Controllers\FacilitiesServicesModel" not found
+in APPPATH\Controllers\Home.php on line 614.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->yachtRecordEdit('829')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-13 20:09:08 --> Error: Class "App\Models\FacilitiesServicesModel" not found
+in APPPATH\Controllers\Yacht.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('829')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-13 20:49:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-01-13 20:49:07 --> 220 smtp-out.flockmail.com ESMTP Postfix
+
+hello: 250-smtp-out.flockmail.com
+250-PIPELINING
+250-SIZE 52428800
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+from: 250 2.1.0 Ok
+
+to: 550 5.4.6 An email sent to this address has been rejected with the reason 'Mailbox does not exist' within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created
+
+The following SMTP error was encountered: 550 5.4.6 An email sent to this address has been rejected with the reason 'Mailbox does not exist' within the last 30 days. Check for typos in the email, or ensure that this subscriber is not a part of your mailing list. To send an email to this address, contact the support team once you are sure the mailbox has been created
+
+quit: 221 2.0.0 Bye
+
+CRITICAL - 2025-01-13 22:35:18 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Yacht.php on line 71.
+ 1 APPPATH\Controllers\Yacht.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('83')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

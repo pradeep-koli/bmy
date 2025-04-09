@@ -1,0 +1,21 @@
+CRITICAL - 2024-07-03 14:22:20 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Yacht.php on line 67.
+ 1 APPPATH\Controllers\Yacht.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 14:23:49 --> ErrorException: Undefined array key 0
+in APPPATH\Controllers\Yacht.php on line 67.
+ 1 APPPATH\Controllers\Yacht.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('4')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 14:23:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Yacht.php on line 63.
+ 1 APPPATH\Controllers\Yacht.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\bmy\\app\\Controllers\\Yacht.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtRecordEditnew('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

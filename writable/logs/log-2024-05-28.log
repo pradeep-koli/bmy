@@ -1,0 +1,192 @@
+CRITICAL - 2024-05-28 14:35:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('booking-confirm', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 14:35:39 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('booking-confirm', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 14:36:20 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-form.php on line 99.
+ 1 APPPATH\Views\yachtProject\us\booking-form.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-form.php', 99)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-form', [], true)
+ 5 APPPATH\Controllers\Yacht.php(159): view('yachtProject/us/booking-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->BookingForm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 14:51:43 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('booking-confirm', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 14:51:44 --> ErrorException: Undefined array key "thumb-img"
+in APPPATH\Views\yachtProject\us\booking-confirm.php on line 47.
+ 1 APPPATH\Views\yachtProject\us\booking-confirm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thumb-img"', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-confirm.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-confirm.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-confirm', [], true)
+ 5 APPPATH\Controllers\Yacht.php(307): view('yachtProject/us/booking-confirm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingConfirm()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:26:16 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:28:05 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:28:05 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:28:52 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:29:15 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:29:28 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 208.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 208)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:31:07 --> ErrorException: Undefined variable $record
+in APPPATH\Views\yachtProject\us\booking-page.php on line 203.
+ 1 APPPATH\Views\yachtProject\us\booking-page.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $record', 'C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php', 203)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\cigovind\\app\\Views\\yachtProject\\us\\booking-page.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('yachtProject/us/booking-page', [], true)
+ 5 APPPATH\Controllers\Yacht.php(312): view('yachtProject/us/booking-page')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->bookingPage()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 21:22:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('submit-booking', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 21:25:18 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 300.
+ 1 SYSTEMPATH\Security\Security.php(300): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(56): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(182): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('login/home', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-28 22:38:49 --> mysqli_sql_exception: Column 'username' cannot be null in C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\cigovind\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ya...', 0)
+#1 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ya...')
+#2 C:\xampp\htdocs\cigovind\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ya...')
+#3 C:\xampp\htdocs\cigovind\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ya...', Array, false)
+#4 C:\xampp\htdocs\cigovind\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cigovind\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cigovind\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\cigovind\app\Controllers\Yacht.php(194): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+#9 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+#10 C:\xampp\htdocs\cigovind\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\cigovind\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-28 22:38:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :yacht_type:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Yacht.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 22:38:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'Motor Yachts\', NULL, \'mansi\', \'2\', \'7889455655\', \'mansi@gmail.com\', \'pune\', \'2024-05-30\', \'00:23\', \'1 hour\', \'pending\', \'2024-05-28 22:38:49\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'Motor Yachts\', NULL, \'mansi\', \'2\', \'7889455655\', \'mansi@gmail.com\', \'pune\', \'2024-05-30\', \'00:23\', \'1 hour\', \'pending\', \'2024-05-28 22:38:49\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :yacht_type:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Yacht.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 22:38:50 --> [Caused by] mysqli_sql_exception: Column 'username' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'Motor Yachts\', NULL, \'mansi\', \'2\', \'7889455655\', \'mansi@gmail.com\', \'pune\', \'2024-05-30\', \'00:23\', \'1 hour\', \'pending\', \'2024-05-28 22:38:49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'Motor Yachts\', NULL, \'mansi\', \'2\', \'7889455655\', \'mansi@gmail.com\', \'pune\', \'2024-05-30\', \'00:23\', \'1 hour\', \'pending\', \'2024-05-28 22:38:49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (\'token\', \'Motor Yachts\', NULL, \'mansi\', \'2\', \'7889455655\', \'mansi@gmail.com\', \'pune\', \'2024-05-30\', \'00:23\', \'1 hour\', \'pending\', \'2024-05-28 22:38:49\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `yacht_booking` (`token`, `yacht_type`, `username`, `customer_name`, `ccount`, `phone`, `email`, `address`, `booking_date`, `booking_time`, `plan_description`, `status`, `adate`) VALUES (:token:, :yacht_type:, :username:, :customer_name:, :ccount:, :phone:, :email:, :address:, :booking_date:, :booking_time:, :plan_description:, :status:, :adate:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Yacht.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Yacht->yachtBook()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yacht))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
