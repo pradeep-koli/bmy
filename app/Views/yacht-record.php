@@ -204,7 +204,7 @@
         </div>
     </div>
 </div>
-<!-- price added according hour end end -->
+<!-- price added according hour end -->
 
 <button type="button" class="btn btn-secondary mb-3" id="add_more_hours">Add More Hours</button>
 
